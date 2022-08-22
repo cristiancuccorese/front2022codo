@@ -1,0 +1,26 @@
+/*Selecciona todos los h1 del documento*/
+h1 {
+    color:rgb(255, 0, 0); 
+    font-size:50PX ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/*selector html{atributo:valor;}*/
+
+h2 {
+    color: blueviolet;
+    font-size: 30px;font-style: oblique;
+}
+p {
+    color: brown;
+}
+/*selector por id*/
+#parrafoazul {
+    color:blue ;
+}
+/*selector por clase*/
+
+.claseparrafoazul {
+    color:cadetblue ;
+}
+
