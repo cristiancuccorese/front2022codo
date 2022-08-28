@@ -1,4 +1,7 @@
-/*Selecciona todos los h1 del documento*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');/*Selecciona todos los h1 del documento*/
+/*Selector por etiqueta*/
 h1 {
     color:rgb(255, 0, 0); 
     font-size:50PX ;
@@ -8,19 +11,61 @@ h1 {
 /*selector html{atributo:valor;}*/
 
 h2 {
-    color: blueviolet;
+    color:rgb(247, 0, 0);
     font-size: 30px;font-style: oblique;
 }
 p {
-    color: brown;
+    color:brown
 }
 /*selector por id*/
 #parrafoazul {
     color:blue ;
+    font-family: 'Silkscreen', cursive;
 }
 /*selector por clase*/
 
-.claseparrafoazul {
+.claseparrafoaqua {
     color:rgb(6, 241, 241) ;
+    font-size: 20px;
+}
+.caja{
+    background-color:aqua ;
+    height: 90px;
+    font-size: 16px;
+    fon
+
+}
+.caja p{
+    color: black;
+
+}
+.caja h3{
+    color: red;
+    font-style:italic;
+}
+.textoitalic{
+    font-style: italic;
+}
+.textobold{
+    font-weight: bold ;
+    font-family:'Roboto', sans-serif; ;
 }
 
+/*Fuente externa*/
+* {
+    font-family:'Roboto', sans-serif;
+}
+/*colores*/
+/*RGB(0,0,0)*/
+/*RGB(100,50,10)*/
+/*RGB(255,255,255)*/
+
+p.color2{
+    color: #41f106; 
+    font-size: small;
+}
+/*rgb + alpha (0 - 1)*/
+p.coloralpha{
+    font-size: 30px;
+    color:rgb(5,175,200,0.7);
+}
