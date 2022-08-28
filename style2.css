@@ -1,0 +1,62 @@
+a {
+    color:red;
+    text-decoration: none;
+}
+ul {
+    list-style: circle; /*none | circle | disc (default) | */
+}
+
+.links {
+
+}
+
+/* herencia */
+.links li a {
+    color:green;
+}
+
+.texto-color {
+    color:blue;
+}
+
+#texto-color {
+    color:purple;
+}
+
+.texto-color-important {
+    color:aqua !important;
+}
+
+/*
+    important > inline > id > class
+*/
+
+/*selector de atributos*/
+[href] {
+    /* background-color: blueviolet;     */
+    text-decoration: line-through;
+}
+
+[href$="3"] {
+    text-decoration: underline;
+}
+
+/*igual a */
+[id="galeria"] {
+    background-color: rgba(154, 85, 85, 0.58);
+}
+/*inicie con algo*/
+[id^="re"] {
+    background-color: burlywood;
+}
+/*contega*/
+[id*="ale"]{
+    font-size: 18px;
+    color:rgb(1, 1, 15);
+    padding: 15px;
+}
+/*termine con*/
+[id$="s"] {
+    background-color: rgb(110, 15, 15);
+    color: white;
+}

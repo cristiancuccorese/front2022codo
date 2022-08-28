@@ -1,74 +1,17 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fieldset</title>
-    <style>
-        a {
-            color:red;
-            text-decoration: none;
-        }
-        ul {
-            list-style: circle; /*none | circle | disc (default) | */
-        }
-
-        .links {
-
-        }
-
-        /* herencia */
-        .links li a {
-            color:green;
-        }
-
-        .texto-color {
-            color:blue;
-        }
-
-        #texto-color {
-            color:purple;
-        }
-
-        .texto-color-important {
-            color:aqua !important;
-        }
-
-        /*
-            important > inline > id > class
-        */
-
-        /*selector de atributos*/
-        [href] {
-            /* background-color: blueviolet;     */
-            text-decoration: line-through;
-        }
-
-        [href$="3"] {
-            text-decoration: underline;
-        }
-
-        /*igual a */
-        [id="galeria"] {
-            background-color: red;
-        }
-        /*inicie con algo*/
-        [id^="re"] {
-            background-color: burlywood;
-        }
-        /*contega*/
-        [id*="ale"]{
-            font-size: 8px;
-            color:blue;
-            padding: 15px;
-        }
-        /*termine con*/
-        [id$="s"] {
-            background-color: black;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <main>
@@ -80,10 +23,10 @@
                             <a href="#nosotros">Link1</a>
                         </li>
                          <li>
-                            <a href="link2">Link2</a>
+                            <a href="#contacto">Link2</a>
                         </li>
                         <li>
-                            <a href="link3">Link3</a>
+                            <a href="#galeria">Link3</a>
                         </li>
                     </ul>
                 </nav>
@@ -91,8 +34,7 @@
         </section>
 
         <section>
-            <p style="color: red" 
-                class="texto-color texto-color-important" 
+            <p  class="texto-color texto-color-important" 
                 id="#texto-color"
             >
                     Parrafo
@@ -137,7 +79,7 @@
         </section>
 
         <section id="regaleria">
-            <h3>Galer&iacute;a</h3>
+            <h3>Regaler&iacute;a</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minima et id dolores quam suscipit non similique unde vel voluptates exercitationem reiciendis nobis dolorem fugit error sed quibusdam delectus quidem?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minima et id dolores quam suscipit non similique unde vel voluptates exercitationem reiciendis nobis dolorem fugit error sed quibusdam delectus quidem?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minima et id dolores quam suscipit non similique unde vel voluptates exercitationem reiciendis nobis dolorem fugit error sed quibusdam delectus quidem?</p>
